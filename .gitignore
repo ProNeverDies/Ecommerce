@@ -1,0 +1,82 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# MongoDB Atlas
+*.pem  # Private keys for MongoDB
+dump/   # MongoDB database dumps
+
+# Payment Gateway (Stripe, Razorpay) Secrets
+stripe_secret_key.txt
+razorpay_secret_key.txt
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build output
+dist/
+build/
+out/
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Next.js
+.next/
+out/
+
+# SvelteKit
+.svelte-kit/
+
+# Nuxt.js
+.nuxt/
+
+# Remix
+.build/
+
+# Firebase
+.firebase/
+firestore.rules.bak
+
+# Heroku
+*.profile
+
+# Misc
+!.gitkeep
